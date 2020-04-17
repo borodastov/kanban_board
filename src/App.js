@@ -120,12 +120,12 @@ function App() {
                                                         columnName: col.name,
                                                         taskId: task.id
 
-                                                    }) }>Up</button>
+                                                    }) }>&#11014;</button>
                                                     <button onClick={ () => down({
                                                         columnName: col.name,
                                                         taskId: task.id
 
-                                                    }) }>Down</button>
+                                                    }) }>&#11015;</button>
                                                 </div>
 
                                                 <div className="col-9">
