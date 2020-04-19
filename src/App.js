@@ -96,7 +96,7 @@ function App() {
 
     return (
         <div className="container">
-            <h1 className='mb-4 mt-4'>Board</h1>
+            <h1 className='mb-4 mt-4'>Kanban Board</h1>
 
 
             <div className="row">
