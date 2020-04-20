@@ -4,12 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const columnsInitial = [
     {
-        name: 'todo',
+        name: 'todo' ,
         color: 'secondary',
         tasks: [
             {
                 id: 1,
                 name: 'todo 1'
+
             },
             {
                 id: 2,
