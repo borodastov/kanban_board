@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { v4 as uuid4} from 'uuid';
 
 const columnsInitial = [
     {
@@ -8,17 +9,17 @@ const columnsInitial = [
         color: 'secondary',
         tasks: [
             {
-                id: 1,
-                name: 'todo 1'
+                id: uuid4(),
+                name: 'Task #1'
 
             },
             {
-                id: 2,
-                name: 'todo 2'
+                id: uuid4(),
+                name: 'Task #2'
             },
             {
-                id: 3,
-                name: 'todo 3'
+                id: uuid4(),
+                name: 'Task #3'
             }
         ]
     },
@@ -28,16 +29,16 @@ const columnsInitial = [
         color: 'primary',
         tasks: [
             {
-                id: 4,
-                name: 'todo 4'
+                id: uuid4(),
+                name: 'Task #4'
             },
             {
-                id: 5,
-                name: 'todo 5'
+                id: uuid4(),
+                name: 'Task #5'
             },
             {
-                id: 6,
-                name: 'todo 6'
+                id: uuid4(),
+                name: 'Task #6'
             }
         ]
     },
@@ -47,12 +48,12 @@ const columnsInitial = [
         color: 'warning',
         tasks: [
             {
-                id: 7,
-                name: 'todo 7'
+                id: uuid4(),
+                name: 'Task #7'
             },
             {
-                id: 8,
-                name: 'todo 8'
+                id: uuid4(),
+                name: 'Task #8'
             }
         ]
     },
@@ -61,12 +62,12 @@ const columnsInitial = [
         color: 'success',
         tasks: [
             {
-                id: 9,
-                name: 'todo 9'
+                id: uuid4(),
+                name: 'Task #9'
             },
             {
-                id: 10,
-                name: 'todo 10'
+                id: uuid4(),
+                name: 'Task #10'
             }
         ]
     }
