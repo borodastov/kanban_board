@@ -9,7 +9,7 @@ const columnsInitial = [
         tasks: [
             {
                 id: 1,
-                name: 'todo 1'
+                name: 'todo 11'
 
             },
             {
