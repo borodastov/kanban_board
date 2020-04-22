@@ -82,7 +82,7 @@ const columnsInitial = [
 
 ]
 
-function App() {
+function KanbanBoard() {
 
     const [columns, setColumns] = useState(columnsInitial)
 
@@ -227,4 +227,4 @@ function App() {
     );
 }
 
-export default App;
+export default KanbanBoard;
