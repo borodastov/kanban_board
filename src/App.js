@@ -76,6 +76,10 @@ const columnsInitial = [
             {
                 id: uuid4(),
                 name: 'Task #10'
+            },
+            {
+                id: uuid4(),
+                name: 'Task #11'
             }
         ]
     }
